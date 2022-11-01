@@ -1,4 +1,7 @@
-<!-- PARA ATUALIZAR: Apenas commitar no git
+<!-- PARA ATUALIZAR: 
+      - Commitar no git
+      - rodar no terminal:
+        npm run deploy
 
      visualizar README no vscode: command+K + V
 

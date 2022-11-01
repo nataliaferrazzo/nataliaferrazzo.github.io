@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -26,7 +27,6 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 import Experience from "./components/home/Experience";
 import { Switch } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
 import Badge from "./components/home/Badge.jsx";
 import Academic from "./components/home/Academic.jsx";
 import IBM from "./components/home/IBM.jsx";
@@ -164,21 +164,21 @@ const Cadastra = React.forwardRef((props, ref) => {
   );
 });*/
 
-const App = () => {
+function App() {
   const titleRef = React.useRef();
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <HashRouter basename='/'>
       {navBar.show && <Navbar ref={titleRef} />}
       <Switch>
-        <Route path="/" exact component={() => <Home ref={titleRef} />} />
-        <Route path="/aboutme" exact component={() => <About />} />
+        <Route exact path="/" component={() => <Home ref={titleRef} />} />
+        <Route exact path="/aboutme" component={() => <About />} />
         <Route path="/experience" exact component={() => <Exp ref={titleRef} />} />
         <Route path="/projects" exact component={() => <Proj />} />
         <Route path="/experience/IBM" exact component={() => <Ibm />} />
         <Route path="/experience/cadastra" exact component={() => <Cadastra />} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
-};
+}
 
 export default App;
