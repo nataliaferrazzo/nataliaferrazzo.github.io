@@ -58,6 +58,13 @@ const academic = {
   data: [
     {
       title: 'Solving the Travelling Salesman Problem on IBM Quantum',
+      subject: 'Quantum Computing - Graduation Thesis',
+      image: require('./projects/images/tcc.png'),
+      message: 'This work aims to detail the implementation process of Grover\'s search algorithm, focusing on the encoding of classical data into quantum data. It details the quantum fundamentals that govern the algorithm\'s operation. In addition, the platforms available for free for the implementation of quantum algorithms from IBM, Microsoft and Amazon are presented. Finally, a performance comparison is made between their quantum hardware. Through this, it is expected to provide the academy with a complete and updated study that is accessible not only to students from areas of Physics, but also to students of Engineering, Computer Science and related areas, aiming to promote research in different fields that can get benefit from quantum computing. In addition, it will provide Brazilian academia with a first step towards the development of benchmark methodologies in quantum hardware.',
+      paper: require('./projects/quantum/TCC.pdf')
+    },
+    {
+      title: 'Solving the Travelling Salesman Problem on IBM Quantum',
       subject: 'Quantum Computing',
       image: require('./projects/images/unigou.png'),
       message: 'In this article, the basic concepts of Quantum Computing were studied and applied to NP-hard Travelling Salesman problem. Through the tools provided by IBM Quantum and Qiskit initiative, it was able to implement it via Python libraries and Jupyter Notebook. The results were as computed for similar publications.',
