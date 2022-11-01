@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8fb8a30.chunk.css",
-    "main.js": "/static/js/main.028b84c3.chunk.js",
-    "main.js.map": "/static/js/main.028b84c3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2d4e5be7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2d4e5be7.js.map",
+    "main.css": "/static/css/main.9c470906.chunk.css",
+    "main.js": "/static/js/main.a49b8315.chunk.js",
+    "main.js.map": "/static/js/main.a49b8315.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.554504a0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
     "static/css/2.0e31c611.chunk.css": "/static/css/2.0e31c611.chunk.css",
-    "static/js/2.23fe4e58.chunk.js": "/static/js/2.23fe4e58.chunk.js",
-    "static/js/2.23fe4e58.chunk.js.map": "/static/js/2.23fe4e58.chunk.js.map",
+    "static/js/2.6e3e37d7.chunk.js": "/static/js/2.6e3e37d7.chunk.js",
+    "static/js/2.6e3e37d7.chunk.js.map": "/static/js/2.6e3e37d7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c23e2f5b005436019771a84f752111ca.js": "/precache-manifest.c23e2f5b005436019771a84f752111ca.js",
+    "precache-manifest.7e68dbdeaa72b36300fdc63b443f7766.js": "/precache-manifest.7e68dbdeaa72b36300fdc63b443f7766.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0e31c611.chunk.css.map": "/static/css/2.0e31c611.chunk.css.map",
-    "static/css/main.c8fb8a30.chunk.css.map": "/static/css/main.c8fb8a30.chunk.css.map",
-    "static/js/2.23fe4e58.chunk.js.LICENSE.txt": "/static/js/2.23fe4e58.chunk.js.LICENSE.txt",
-    "static/js/main.028b84c3.chunk.js.LICENSE.txt": "/static/js/main.028b84c3.chunk.js.LICENSE.txt",
+    "static/css/main.9c470906.chunk.css.map": "/static/css/main.9c470906.chunk.css.map",
+    "static/js/2.6e3e37d7.chunk.js.LICENSE.txt": "/static/js/2.6e3e37d7.chunk.js.LICENSE.txt",
     "static/media/AWS.pdf": "/static/media/AWS.b6620c87.pdf",
     "static/media/Big_Data_Found.png": "/static/media/Big_Data_Found.c32a200e.png",
     "static/media/Data_Sci_Found.png": "/static/media/Data_Sci_Found.7fc28107.png",
@@ -69,10 +68,10 @@
     "static/media/wealth-distribution.pdf": "/static/media/wealth-distribution.c40934c9.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d4e5be7.js",
+    "static/js/runtime-main.554504a0.js",
     "static/css/2.0e31c611.chunk.css",
-    "static/js/2.23fe4e58.chunk.js",
-    "static/css/main.c8fb8a30.chunk.css",
-    "static/js/main.028b84c3.chunk.js"
+    "static/js/2.6e3e37d7.chunk.js",
+    "static/css/main.9c470906.chunk.css",
+    "static/js/main.a49b8315.chunk.js"
   ]
 }
