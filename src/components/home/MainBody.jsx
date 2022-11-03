@@ -16,7 +16,6 @@ const MainBody = React.forwardRef(
         className="title bg-transparent bgstyle text-light max-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <div className="static-gradient">
-        <div id="stars"></div>
         <Container className="text-center mt-5">
           <div id="empty"></div>
           <h1 ref={ref} className="display-3">

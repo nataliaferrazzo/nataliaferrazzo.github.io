@@ -6,11 +6,11 @@ import {
     Jumbotron
 } from "react-bootstrap";
 
-const Experience = ({experiences}) => {
-    return (  
+const Experience = ({ experiences }) => {
+    return (
         <section className="section bg-transparent">
             <Container className="pt-5">
-                <Jumbotron fluid className="bg-black">
+                <Jumbotron fluid className="bg-black bgstyle">
                     <h2 className="display-6 pb-3 text-right text-title category border border-top-0 border-right-0 border-left-0 border-secondary">
                         {experiences.heading}
                     </h2>
@@ -26,5 +26,5 @@ const Experience = ({experiences}) => {
         </section>
     );
 }
- 
+
 export default Experience;

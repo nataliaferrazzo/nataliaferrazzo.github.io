@@ -31,6 +31,7 @@ import Badge from "./components/home/Badge.jsx";
 import Academic from "./components/home/Academic.jsx";
 import IBM from "./components/home/IBM.jsx";
 import CAD from "./components/home/CAD.jsx";
+import Jumbotron from "react-bootstrap/Jumbotron";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -167,17 +168,22 @@ const Cadastra = React.forwardRef((props, ref) => {
 function App() {
   const titleRef = React.useRef();
   return (
-    <HashRouter basename='/'>
-      {navBar.show && <Navbar ref={titleRef} />}
-      <Switch>
-        <Route exact path="/" component={() => <Home ref={titleRef} />} />
-        <Route exact path="/aboutme" component={() => <About />} />
-        <Route path="/experience" exact component={() => <Exp ref={titleRef} />} />
-        <Route path="/projects" exact component={() => <Proj />} />
-        <Route path="/experience/IBM" exact component={() => <Ibm />} />
-        <Route path="/experience/cadastra" exact component={() => <Cadastra />} />
-      </Switch>
-    </HashRouter>
+    <div>
+      <div id="stars"></div>
+      <div className="App">
+        <HashRouter basename='/#'>
+          {navBar.show && <Navbar ref={titleRef} />}
+          <Switch>
+            <Route exact path="/" component={() => <Home />} />
+            <Route exact path="/aboutme" component={() => <About />} />
+            <Route exact path="/experience" component={() => <Exp ref={titleRef} />} />
+            <Route exact path="/projects" component={() => <Proj />} />
+            <Route exact path="/experience/IBM" component={() => <Ibm />} />
+            <Route exact path="/experience/cadastra" component={() => <Cadastra />} />
+          </Switch>
+        </HashRouter>
+      </div>
+    </div>
   );
 }
 

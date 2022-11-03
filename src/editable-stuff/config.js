@@ -19,11 +19,11 @@ const mainBody = {
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/natalia-capra-ferrazzo/",
-    },
-    {
-      image: "fa-envelope",
-      url: "nataliaferrazzo@hotmail.com",
     }
+//    {
+//      image: "fa-envelope",
+//      url: "nataliaferrazzo@hotmail.com",
+//    }
   ],
 };
 
@@ -33,8 +33,8 @@ const about = {
   imageLink: require("./Eu.jpeg"),
   imageSize: 300,
   message:
-    "B. Sc. in Engineering Physics at Federal University of Rio Grande do Sul, currently in 9th semester, with expected graduation in October, 2022. I work as an Intern at IBM. I'm fascinated about Physics, Quantum Computing and Data Science. In my free time I like working on open source projects and learn about Applied Quantum Physics. 💜",
-  resume: require("../editable-stuff/resume.pdf"),
+    "Bachelor of Science in Engineering Physics from Federal University of Rio Grande do Sul, graduated in October 2022. I work as an Application Developer at IBM. I'm fascinated about Physics, Quantum Computing and Data Science. In my free time I like working on open source projects and learn about Applied Quantum Physics. 💜",
+  resume: require("../editable-stuff/Natalia_Ferrazzo_CV.pdf"),
 };
 
 // PROJECTS SECTION
@@ -57,8 +57,8 @@ const academic = {
   message: "Please, note that these are just some assignments made for my B. Sc. Engineering Physics degree. None of them are cientific reports or articles.",
   data: [
     {
-      title: 'Solving the Travelling Salesman Problem on IBM Quantum',
-      subject: 'Quantum Computing - Graduation Thesis',
+      title: 'Grover\’s Search Algorithm: Comparative study of the performance of quantum hardware made available by IBM, Microsoft and Amazon.',
+      subject: 'Quantum Computing',
       image: require('./projects/images/tcc.png'),
       message: 'This work aims to detail the implementation process of Grover\'s search algorithm, focusing on the encoding of classical data into quantum data. It details the quantum fundamentals that govern the algorithm\'s operation. In addition, the platforms available for free for the implementation of quantum algorithms from IBM, Microsoft and Amazon are presented. Finally, a performance comparison is made between their quantum hardware. Through this, it is expected to provide the academy with a complete and updated study that is accessible not only to students from areas of Physics, but also to students of Engineering, Computer Science and related areas, aiming to promote research in different fields that can get benefit from quantum computing. In addition, it will provide Brazilian academia with a first step towards the development of benchmark methodologies in quantum hardware.',
       paper: require('./projects/quantum/TCC.pdf')
@@ -183,7 +183,7 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 85 },
     { name: "SQL", value: 50 },
-    { name: "Quantum Computing", value: 30 },
+    { name: "Quantum Computing", value: 40 },
     { name: "ETL", value: 60 },
     { name: "JavaScript", value: 60 },
     { name: "React", value: 60 },
@@ -191,11 +191,11 @@ const skills = {
     { name: "Git", value: 75 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 100 },
     { name: "Collaboration", value: 80 },
-    { name: "Positivity", value: 100 },
+    { name: "Positivity", value: 90 },
     { name: "Adaptability", value: 90 },
-    { name: "Problem Solving", value: 85 },
+    { name: "Problem Solving", value: 95 },
     { name: "Empathy", value: 95 },
     { name: "Organization", value: 100 },
     { name: "Creativity", value: 90 },
@@ -215,7 +215,7 @@ const experiences = {
   heading: "Professional Experiences",
   data: [
     {
-      role: 'Developer Intern',// Here Add Company Name
+      role: 'Application Developer',// Here Add Company Name
       companylogo: require('../assets/img/IBM.png'),
       date: 'Aug 2021 – Present',
       url: "/experience/IBM"
@@ -244,18 +244,46 @@ const badges = {
   heading: "Certificates and Badges",
   data: [
     {
-      heading: 'English C2 - Proficient',
-      company: 'EF Standard English Test',
-      date: 'Issued in March 2021',
-      logo: require('../assets/badges/ESEF.png'),
-      url: "https://www.efset.org/cert/fioTf1"
-    },
-    {
       heading: 'Quantum Computation using Qiskit v0.2X',
       company: 'IBM',
       date: 'Issued in June 2022',
       logo: require('../assets/badges/ibm-certified-associate-developer-quantum-computation-using-qiskit-v0-2x.png'),
       url: "https://www.credly.com/badges/914b57fc-0b5b-4e7a-8c15-c688b8146255/public_url"
+    },
+    {
+      heading: 'Qiskit Advocate',
+      company: 'IBM',
+      date: 'Issued in August 2022',
+      logo: require('../assets/badges/qiskit-advocate.png'),
+      url: "https://www.credly.com/badges/23cc4f06-1353-4bcf-b0d4-4a105c7bb097/public_url"
+    },
+    {
+      heading: 'IBM Quantum Spring Challenge 2022 Achievement',
+      company: 'IBM',
+      date: 'Issued in June 2022',
+      logo: require('../assets/badges/ibm-quantum-spring-challenge-2022-achievement.png'),
+      url: "https://www.credly.com/badges/f961d6f1-cefe-41cc-89c3-cafdd85de946/public_url"
+    },
+    {
+      heading: 'Qiskit Global Summer School 2022 - Quantum Excellence',
+      company: 'IBM',
+      date: 'Issued in August 2022',
+      logo: require('../assets/badges/qiskit-global-summer-school-2022-quantum-excellence.png'),
+      url: "https://www.credly.com/badges/f67312f6-7ad5-4abf-84c3-e9ec7c32c12e/public_url"
+    },
+    {
+      heading: 'Data Science Professional Certificate',
+      company: 'IBM',
+      date: 'Issued in August 2022',
+      logo: require('../assets/badges/data-science-professional-certificate-v2.png'),
+      url: "https://www.credly.com/badges/14d3b0e8-e5bb-434b-9af6-13ea728ce231/public_url"
+    },
+    {
+      heading: 'English C2 - Proficient',
+      company: 'EF Standard English Test',
+      date: 'Issued in March 2021',
+      logo: require('../assets/badges/ESEF.png'),
+      url: "https://www.efset.org/cert/fioTf1"
     },
     {
       heading: 'The Complete Quantum Computing Course',
