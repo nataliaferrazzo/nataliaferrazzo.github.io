@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e08019bc071255e136b88dd4e4cc23f",
+    "revision": "0eea2970f43b7cdf4e84860a2b1ec584",
     "url": "/index.html"
   },
   {
-    "revision": "a5bfc66b8f14e15454fb",
+    "revision": "55f438a4ea4a0a74e380",
     "url": "/static/css/2.0e31c611.chunk.css"
   },
   {
-    "revision": "5f3205fdd57e47a4d649",
-    "url": "/static/css/main.094c7b1e.chunk.css"
+    "revision": "eb38df956b8ff3ea40c2",
+    "url": "/static/css/main.7c12001a.chunk.css"
   },
   {
-    "revision": "a5bfc66b8f14e15454fb",
-    "url": "/static/js/2.6e3e37d7.chunk.js"
+    "revision": "55f438a4ea4a0a74e380",
+    "url": "/static/js/2.51b3a364.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.6e3e37d7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.51b3a364.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f3205fdd57e47a4d649",
-    "url": "/static/js/main.14bc1731.chunk.js"
+    "revision": "eb38df956b8ff3ea40c2",
+    "url": "/static/js/main.34983df9.chunk.js"
   },
   {
     "revision": "f52ba179432c3be28857",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc6a16ad8100f4ad53d8a7fc30e1fa40",
     "url": "/static/media/IBM.dc6a16ad.png"
+  },
+  {
+    "revision": "4f795c35af2f185293508355f8d8df04",
+    "url": "/static/media/Natalia_Ferrazzo_CV.4f795c35.pdf"
   },
   {
     "revision": "8810ba5ce30afac3f5fba52ee9e9a74f",
@@ -112,6 +116,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/code2.51fb48a2.png"
   },
   {
+    "revision": "f5f1f8dd40ba1bfd708b7c5d88ab5d31",
+    "url": "/static/media/data-science-professional-certificate-v2.f5f1f8dd.png"
+  },
+  {
     "revision": "45ae7eae30cbbb12aecfd8739eb68a19",
     "url": "/static/media/elaboracao.45ae7eae.png"
   },
@@ -152,6 +160,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ibm-garage-essentials.82a3f3e0.png"
   },
   {
+    "revision": "e38d817dd90cd4d3da52b1160337bd45",
+    "url": "/static/media/ibm-quantum-spring-challenge-2022-achievement.e38d817d.png"
+  },
+  {
     "revision": "bbbd551f21299eb8457075fe68fa0b39",
     "url": "/static/media/ibm-watson-studio-dashboard-essentials.bbbd551f.png"
   },
@@ -188,6 +200,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/photon-count.b95c5ad9.png"
   },
   {
+    "revision": "b37cfc8703f11edd1ea61c729451a257",
+    "url": "/static/media/qiskit-advocate.b37cfc87.png"
+  },
+  {
+    "revision": "af836fb48cd22d1d8b4217a567fabace",
+    "url": "/static/media/qiskit-global-summer-school-2022-quantum-excellence.af836fb4.png"
+  },
+  {
     "revision": "6449d6a6ade33b7da4216dcd02390bad",
     "url": "/static/media/quantum-information.6449d6a6.pdf"
   },
@@ -202,10 +222,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a9f534c5eb188392a51187b95095920a",
     "url": "/static/media/radioisotope-decay.a9f534c5.pdf"
-  },
-  {
-    "revision": "480eeda9bf006172394a9f3deeee5299",
-    "url": "/static/media/resume.480eeda9.pdf"
   },
   {
     "revision": "9d8bdb5a7e1fea54f74459caeae134d2",
