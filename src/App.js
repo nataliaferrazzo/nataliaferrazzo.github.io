@@ -31,7 +31,7 @@ import Badge from "./components/home/Badge.jsx";
 import Academic from "./components/home/Academic.jsx";
 import IBM from "./components/home/IBM.jsx";
 import CAD from "./components/home/CAD.jsx";
-import Jumbotron from "react-bootstrap/Jumbotron";
+import ScrollToTop from "./components/home/ScrollToTop";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -173,14 +173,16 @@ function App() {
       <div className="App">
         <HashRouter basename='/#'>
           {navBar.show && <Navbar ref={titleRef} />}
-          <Switch>
-            <Route exact path="/" component={() => <Home />} />
-            <Route exact path="/aboutme" component={() => <About />} />
-            <Route exact path="/experience" component={() => <Exp ref={titleRef} />} />
-            <Route exact path="/projects" component={() => <Proj />} />
-            <Route exact path="/experience/IBM" component={() => <Ibm />} />
-            <Route exact path="/experience/cadastra" component={() => <Cadastra />} />
-          </Switch>
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/" component={() => <Home />} />
+              <Route exact path="/aboutme" component={() => <About />} />
+              <Route exact path="/experience" component={() => <Exp ref={titleRef} />} />
+              <Route exact path="/projects" component={() => <Proj />} />
+              <Route exact path="/experience/IBM" component={() => <Ibm />} />
+              <Route exact path="/experience/cadastra" component={() => <Cadastra />} />
+            </Switch>
+          </ScrollToTop>
         </HashRouter>
       </div>
     </div>

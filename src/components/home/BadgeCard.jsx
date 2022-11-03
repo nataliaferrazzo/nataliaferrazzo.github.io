@@ -1,8 +1,7 @@
 import React from 'react';
 
 import {
-    Col,
-    Card
+    Col
 } from "react-bootstrap";
 
 const BadgeCard = ({ data }) => {
@@ -11,7 +10,7 @@ const BadgeCard = ({ data }) => {
             <div className="pb-3 text-center">
                 <a href={data.url} target="_blank" rel="noopener noreferrer">
                     <img
-                        className="bg-white mb-1"
+                        className="bg-transparent mb-1"
                         src={data.logo}
                         alt=""
                         width="100"

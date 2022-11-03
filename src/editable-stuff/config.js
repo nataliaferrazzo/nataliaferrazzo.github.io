@@ -57,7 +57,7 @@ const academic = {
   message: "Please, note that these are just some assignments made for my B. Sc. Engineering Physics degree. None of them are cientific reports or articles.",
   data: [
     {
-      title: 'Grover\’s Search Algorithm: Comparative study of the performance of quantum hardware made available by IBM, Microsoft and Amazon.',
+      title: 'Grover’s Search Algorithm: Comparative study of the performance of quantum hardware made available by IBM, Microsoft and Amazon.',
       subject: 'Quantum Computing',
       image: require('./projects/images/tcc.png'),
       message: 'This work aims to detail the implementation process of Grover\'s search algorithm, focusing on the encoding of classical data into quantum data. It details the quantum fundamentals that govern the algorithm\'s operation. In addition, the platforms available for free for the implementation of quantum algorithms from IBM, Microsoft and Amazon are presented. Finally, a performance comparison is made between their quantum hardware. Through this, it is expected to provide the academy with a complete and updated study that is accessible not only to students from areas of Physics, but also to students of Engineering, Computer Science and related areas, aiming to promote research in different fields that can get benefit from quantum computing. In addition, it will provide Brazilian academia with a first step towards the development of benchmark methodologies in quantum hardware.',
