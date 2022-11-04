@@ -169,7 +169,6 @@ function App() {
   const titleRef = React.useRef();
   return (
     <div>
-      <div id="stars"></div>
       <div className="App">
         <HashRouter basename='/#'>
           {navBar.show && <Navbar ref={titleRef} />}

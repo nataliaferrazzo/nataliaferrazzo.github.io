@@ -15,30 +15,31 @@ const MainBody = React.forwardRef(
         }}
         className="title bg-transparent bgstyle text-light max-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
+        <div id="stars"></div>
         <div className="static-gradient">
-        <Container className="text-center mt-5">
-          <div id="empty"></div>
-          <h1 ref={ref} className="display-3">
-            {title}
-          </h1>
-          <Typist className="lead typist" cursor={{ show: false }}>
-            {" "}
-            {message}
-          </Typist>
-          <div className="p-5">
-            {icons.map((icon, index) => (
-              <a
-                key={`social-icon-${index}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
-              >
-                <i className={`fab ${icon.image}  fa-3x socialicons m-1`} />
-              </a>
-            ))}
-          </div>
-{/*        <a
+          <Container className="text-center mt-5">
+            <div id="empty"></div>
+            <h1 ref={ref} className="display-3">
+              {title}
+            </h1>
+            <Typist className="lead typist" cursor={{ show: false }}>
+              {" "}
+              {message}
+            </Typist>
+            <div className="p-5">
+              {icons.map((icon, index) => (
+                <a
+                  key={`social-icon-${index}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={icon.url}
+                  aria-label={`My ${icon.image.split("-")[1]}`}
+                >
+                  <i className={`fab ${icon.image}  fa-3x socialicons m-1`} />
+                </a>
+              ))}
+            </div>
+            {/*        <a
             className="btn btn-outline-light btn-lg "
             href="aboutme"
             role="button"
@@ -46,7 +47,7 @@ const MainBody = React.forwardRef(
           >
             More about me
             </a> */}
-        </Container>
+          </Container>
         </div>
       </Jumbotron>
     );
