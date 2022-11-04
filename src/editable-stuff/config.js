@@ -59,9 +59,16 @@ const academic = {
     {
       title: 'Grover’s Search Algorithm: Comparative study of the performance of quantum hardware made available by IBM, Microsoft and Amazon.',
       subject: 'Quantum Computing',
-      image: require('./projects/images/tcc.png'),
+      image: require('./projects/images/tcc-en.png'),
       message: 'This work aims to detail the implementation process of Grover\'s search algorithm, focusing on the encoding of classical data into quantum data. It details the quantum fundamentals that govern the algorithm\'s operation. In addition, the platforms available for free for the implementation of quantum algorithms from IBM, Microsoft and Amazon are presented. Finally, a performance comparison is made between their quantum hardware. Through this, it is expected to provide the academy with a complete and updated study that is accessible not only to students from areas of Physics, but also to students of Engineering, Computer Science and related areas, aiming to promote research in different fields that can get benefit from quantum computing. In addition, it will provide Brazilian academia with a first step towards the development of benchmark methodologies in quantum hardware.',
-      paper: require('./projects/quantum/TCC.pdf')
+      paper: require('./projects/quantum/Diplomation_Thesis.pdf')
+    },
+    {
+      title: 'Algoritmo de Busca de Grover: Estudo comparativo de desempenho dos hardwares quânticos disponibilizados pela IBM, Microsoft e Amazon.',
+      subject: 'Quantum Computing',
+      image: require('./projects/images/tcc-pt.png'),
+      message: 'Este trabalho visa detalhar o processo de implementação do algoritmo de busca de Grover, com foco na codificação de dados de base clássica em base quântica. Nele são detalhados os fundamentos quânticos que regem o funcionamento do algoritmo. Além disso, são apresentadas as plataformas disponíveis de forma gratuita para implementação de algoritmos quânticos da IBM, Microsoft e Amazon. Ao fim, é realizada uma comparação de desempenho entre seus os hardwares quânticos. Com isso, espera-se disponibilizar à academia um estudo completo e atualizado que seja acessível não só a estudantes de áreas da Física, mas também há estudantes de Engenharias, Ciências da Computação e áreas afins, visando fomentar pesquisas nos diferentes campos que podem se beneficiar com a computação quântica. Além disso, este projeto proverá à academia brasileira um primeiro passo para o desenvolvimento de metodologias de benchmark em hardwares quânticos.',
+      paper: require('./projects/quantum/Trabalho_de_Conclusao_de_Curso.pdf')
     },
     {
       title: 'Solving the Travelling Salesman Problem on IBM Quantum',
