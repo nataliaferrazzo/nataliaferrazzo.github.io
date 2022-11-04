@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31f34df2e16309c35533955e2f79c850",
+    "revision": "caf4178e458b7b89cdc71cb68278b148",
     "url": "/index.html"
   },
   {
-    "revision": "9431a20cc9b86fd2d756",
+    "revision": "08b71ecb0db469521b99",
     "url": "/static/css/2.0e31c611.chunk.css"
   },
   {
-    "revision": "e1121a83d01c42a39c29",
+    "revision": "0086164b7963326ed754",
     "url": "/static/css/main.db6a70fd.chunk.css"
   },
   {
-    "revision": "9431a20cc9b86fd2d756",
-    "url": "/static/js/2.2dcdd2c0.chunk.js"
+    "revision": "08b71ecb0db469521b99",
+    "url": "/static/js/2.eb876c5a.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.2dcdd2c0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.eb876c5a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1121a83d01c42a39c29",
-    "url": "/static/js/main.eb0b4124.chunk.js"
+    "revision": "0086164b7963326ed754",
+    "url": "/static/js/main.15a68855.chunk.js"
   },
   {
     "revision": "f52ba179432c3be28857",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7fc28107ffe63704d6b9a9be2b584a78",
     "url": "/static/media/Data_Sci_Found.7fc28107.png"
+  },
+  {
+    "revision": "1d4af427333345d7511aa2d14bb351ce",
+    "url": "/static/media/Diplomation_Thesis.1d4af427.pdf"
   },
   {
     "revision": "8877ff011ac6f68fb6235151b2a5bb37",
@@ -76,12 +80,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Quantum_Conversations.a87060d9.png"
   },
   {
-    "revision": "1d4af427333345d7511aa2d14bb351ce",
-    "url": "/static/media/TCC.1d4af427.pdf"
-  },
-  {
     "revision": "395a1853edbd802ef8c8fac9b2b8ea16",
     "url": "/static/media/Team_Essentials.395a1853.png"
+  },
+  {
+    "revision": "e206f239b68f0332449c348af5338307",
+    "url": "/static/media/Trabalho_de_Conclusao_de_Curso.e206f239.pdf"
   },
   {
     "revision": "21b0d1239e20c0c2033de2c78b08a247",
@@ -225,7 +229,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "9d8bdb5a7e1fea54f74459caeae134d2",
-    "url": "/static/media/tcc.9d8bdb5a.png"
+    "url": "/static/media/tcc-en.9d8bdb5a.png"
+  },
+  {
+    "revision": "90934dbc7f834f2afe1523a40a85c41f",
+    "url": "/static/media/tcc-pt.90934dbc.png"
   },
   {
     "revision": "fa50fd3ea09613155beb263210f72165",
