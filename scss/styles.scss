@@ -444,6 +444,36 @@ footer {
     text-decoration: none; /* Remove o sublinhado do link */
 }
 
+
+#resume-button-container {
+    text-align: center; /* Center the button */}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 10px; /* Adjust button size */
+    background-color: white;
+    color: $base-color-hover;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    &.active {
+        color: $base-color-hover;
+    }
+}
+
+.resume-button:hover {
+    background-color: $base-color-hover;
+    color: $base-color !important; /* Change text color on hover */
+    transition: color background-color 0.3s ease; /* Efeito suave para hover */
+}
+
+.resume-button:visited {
+    color: $base-color-hover; /* Revert to the default text color */
+
+}
+
 #picture {
     flex: 0 0 auto; /* Ensures the image doesn't stretch */
     margin-bottom: 40px;
