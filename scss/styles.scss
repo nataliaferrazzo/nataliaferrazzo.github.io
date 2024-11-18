@@ -1309,9 +1309,7 @@ footer {
 
 // Extra Small Devices
 @media only screen and (max-width : 480px) {
-    #picture {
-        display: none; /* Hides the picture */
-    }
+
     #lead-content {
         h1 {
             font-size: 1.5em;
