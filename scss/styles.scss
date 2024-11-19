@@ -212,6 +212,45 @@ header {
         position: fixed; // Sticky header behavior
         z-index: 999;
     }
+
+    &.active {
+        display: flex;
+        position: fixed;
+        text-align: center;
+        color: $base-color;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8); /* Optional: Add a backdrop */
+        z-index: 1000;
+        flex-direction: column;
+        align-items: center;
+        
+        ul#menu {
+            display: block;
+            position: fixed;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            margin: 0;
+            margin-top: 50px;
+            padding: 0;
+            li {
+                margin: 0;
+                margin-bottom: 60px ;
+            }
+            a {
+                display: block;
+                z-index: 1001;
+                padding: 10px 20px; /* Adjust padding for better touch targets */
+                color: $base-color-hover; /* Set the desired color for links */
+                text-decoration: none; /* Remove underline */
+                font-size: 1.2em; /* Adjust font size */
+                transition: color 0.3s ease; /* Add hover effect */
+            }
+        }
+    }
+    
 }
 
 /*
@@ -238,18 +277,21 @@ header {
     padding: 0 7px;
     border-radius: 4px;
     background: $background;
+    
 }
 
 #mobile-menu-close {
     display: none;
-    text-align: right;
-    width: 100%;
+    position: fixed;
+    width: 50%;
+    height: 80%;
     background: $background;
     font-size: 1.5em;
     padding-right: 15px;
-    padding-top: 10px;
+    text-align: right;
     cursor: pointer;
-    color: $base-color;
+    border-radius: 8px;
+    margin-top: 5px;
 
     span {
         font-size: 0.5em;
@@ -1212,6 +1254,7 @@ footer {
     }
 
     #lead-content {
+        margin-top: 20px;
 
         h1 {
             font-size: 2em;
